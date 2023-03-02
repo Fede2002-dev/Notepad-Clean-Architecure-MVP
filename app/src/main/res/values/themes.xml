@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NotepadCleanArchitecureMVP" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/gray_900</item>
+        <item name="colorPrimaryVariant">@color/orange_variant</item>
+        <item name="colorOnPrimary">@color/gray_900</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lightblue_primary</item>
+        <item name="colorSecondaryVariant">@color/lightblue_variant</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="backgroundColor">@color/gray_850</item>
+        <item name="android:windowBackground">@color/gray_850</item>
+        <item name="background">@color/gray_850</item>
+    </style>
+
+    <style name="Theme.NotepadCleanArchitecureMVP.NoActionBar" parent="Theme.NotepadCleanArchitecureMVP">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
